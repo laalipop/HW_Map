@@ -1,5 +1,3 @@
-console.log('worked');
-
 export default class ErrorRepository {
   constructor() {
     this.error = new Map();
@@ -18,6 +16,3 @@ export default class ErrorRepository {
     return result;
   }
 }
-
-// const test = new ErrorRepository();
-// console.log('консоль', test.translate(11));
